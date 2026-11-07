@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+  popup.html: es la ventanita que se abre al hacer clic en el ícono de la extensión.
+  Todo lo que está entre los símbolos de "menor" y "mayor" se llama etiqueta (tag).
+  Este texto entre flechas y guiones es un comentario: el navegador lo ignora.
+-->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Postulaciones</title>
+  </head>
+
+  <body>
+    <!-- h1 = título principal de la página -->
+    <h1>Postulaciones</h1>
+
+    <!-- form = formulario. Dentro van los campos que vas a completar. -->
+    <form>
+      <!-- label = el texto que ve la persona. input = el espacio para escribir. -->
+      <label for="empresa">Empresa</label><br />
+      <input type="text" id="empresa" name="empresa" /><br /><br />
+
+      <label for="puesto">Puesto</label><br />
+      <input type="text" id="puesto" name="puesto" /><br /><br />
+
+      <label for="link">Link del aviso</label><br />
+      <input type="url" id="link" name="link" /><br /><br />
+
+      <label for="fecha">Fecha de postulación</label><br />
+      <input type="date" id="fecha" name="fecha" /><br /><br />
+
+      <!-- button = botón. Por ahora no hace nada; en la Etapa 3 le damos vida con JavaScript. -->
+      <button type="button">Guardar</button>
+    </form>
+  </body>
+</html>
