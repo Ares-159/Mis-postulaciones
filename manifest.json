@@ -3,6 +3,7 @@
   "name": "Postulaciones",
   "version": "0.1",
   "description": "Guarda las ofertas de empleo a las que te postulas y lleva el seguimiento.",
+  "permissions": ["storage"], 
   "action": {
     "default_title": "Postulaciones",
     "default_popup": "popup.html"

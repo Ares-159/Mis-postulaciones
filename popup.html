@@ -8,15 +8,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>Postulaciones</title>
-    <link rel = "stylesheet" href = "style.css"
-  </head>
+    <link rel = "stylesheet" href = "style.css"/>
+    <script src=popup.js defer></script>
+  </head> 
 
   <body>
     <!-- h1 = título principal de la página -->
     <h1>Postulaciones</h1>
 
     <!-- form = formulario. Dentro van los campos que vas a completar. -->
-    <form>
+    <form id ="formulario">
+    
       <!-- label = el texto que ve la persona. input = el espacio para escribir. -->
       <label for="empresa">Empresa</label><br />
       <input type="text" id="empresa" name="empresa" /><br /><br />
@@ -31,7 +33,9 @@
       <input type="date" id="fecha" name="fecha" /><br /><br />
 
       <!-- button = botón. Por ahora no hace nada; en la Etapa 3 le damos vida con JavaScript. -->
-      <button type="button">Guardar</button>
+      <button type="submit">Guardar</button>
     </form>
+    <h2>Guardadas</h2>
+    <ul id="lista"></ul>
   </body>
 </html>
