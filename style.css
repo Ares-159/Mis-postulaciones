@@ -1,0 +1,55 @@
+/*
+  style.css: define cómo se VE el popup (colores, tamaños, espacios).
+  Cada bloque tiene un selector (a quién se aplica) y, entre llaves,
+  las propiedades con sus valores.
+*/
+
+/* body = toda la ventanita */
+body {
+  width: 300px;            /* ancho del popup */
+  padding: 16px;           /* espacio interior entre el borde y el contenido */
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222222;
+}
+
+/* h1 = el título */
+h1 {
+  font-size: 20px;
+  margin-top: 0;           /* quita el espacio de arriba */
+  margin-bottom: 16px;
+  color: #df4f30;
+}
+
+/* label = los textos sobre cada campo */
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* los espacios para escribir */
+input {
+  width: 100%;             /* ocupa todo el ancho disponible */
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #b8c0c8;
+  border-radius: 4px;      /* esquinas redondeadas */
+  box-sizing: border-box;  /* hace que el ancho incluya el padding y el borde */
+}
+
+/* el botón */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0b5cad;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;         /* la flecha del mouse se vuelve una manito */
+}
+
+/* hover = cuando el mouse pasa por encima del botón */
+button:hover {
+  background-color: #084a8c;
+}
